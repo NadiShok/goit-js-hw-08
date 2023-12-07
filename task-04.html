@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 8</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <style>
+      .login-form {
+        max-width: 360px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .login-form label {
+        margin-bottom: 8px;
+        font-family: Montserrat, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5em;
+        letter-spacing: 0.04px;
+        color: #2E2F42;
+      }
+
+      .login-form input {
+        width: 100%;
+        margin-top: 8px;
+        padding: 8px;
+        font: inherit;
+      }
+
+      .login-form button {
+        margin-left: 0;
+        margin-top: 8px;
+        padding: 8px 16px;
+        width: 86px;
+      }
+    </style>
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+
+    <form class="login-form">
+      <label>
+        Email
+        <input type="email" name="email" />
+      </label>
+      <label>
+        Password
+        <input type="password" name="password" />
+      </label>
+      <button type="submit">Login</button>
+    </form>
+
+    <script src="js/task-04.js" type="module"></script>
+  </body>
+</html>
